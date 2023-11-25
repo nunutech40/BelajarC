@@ -5,5 +5,7 @@
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-percabangan-ifelse.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-percabangan-switch.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-perulangan-while.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/fungsi.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/pointer.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/edit_cache.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/rebuild_cache.dir

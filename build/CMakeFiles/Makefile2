@@ -70,6 +70,8 @@ all: CMakeFiles/exc-var-bool.dir/all
 all: CMakeFiles/ctrflw-percabangan-ifelse.dir/all
 all: CMakeFiles/ctrflw-percabangan-switch.dir/all
 all: CMakeFiles/ctrflw-perulangan-while.dir/all
+all: CMakeFiles/fungsi.dir/all
+all: CMakeFiles/pointer.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +86,8 @@ clean: CMakeFiles/exc-var-bool.dir/clean
 clean: CMakeFiles/ctrflw-percabangan-ifelse.dir/clean
 clean: CMakeFiles/ctrflw-percabangan-switch.dir/clean
 clean: CMakeFiles/ctrflw-perulangan-while.dir/clean
+clean: CMakeFiles/fungsi.dir/clean
+clean: CMakeFiles/pointer.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,7 +97,7 @@ clean: CMakeFiles/ctrflw-perulangan-while.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=13,14 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=15,16 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,6 +271,58 @@ ctrflw-perulangan-while: CMakeFiles/ctrflw-perulangan-while.dir/rule
 CMakeFiles/ctrflw-perulangan-while.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/clean
 .PHONY : CMakeFiles/ctrflw-perulangan-while.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fungsi.dir
+
+# All Build rule for target.
+CMakeFiles/fungsi.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=13,14 "Built target fungsi"
+.PHONY : CMakeFiles/fungsi.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fungsi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fungsi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/fungsi.dir/rule
+
+# Convenience name for target.
+fungsi: CMakeFiles/fungsi.dir/rule
+.PHONY : fungsi
+
+# clean rule for target.
+CMakeFiles/fungsi.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/clean
+.PHONY : CMakeFiles/fungsi.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer.dir
+
+# All Build rule for target.
+CMakeFiles/pointer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=17,18 "Built target pointer"
+.PHONY : CMakeFiles/pointer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/pointer.dir/rule
+
+# Convenience name for target.
+pointer: CMakeFiles/pointer.dir/rule
+.PHONY : pointer
+
+# clean rule for target.
+CMakeFiles/pointer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/clean
+.PHONY : CMakeFiles/pointer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

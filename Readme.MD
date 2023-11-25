@@ -82,3 +82,16 @@ while...
 do..while..
 for..
 ```
+
+# Pointer 
+=> Ternyata pointer adalah alamat memory dari suatu variable yang sudah di definisikan
+![!\[Alt text\](<assets/Screenshot 2023-11-26 at 00.05.24.png>)](<assets/Screenshot 2023-11-26 at 00.14.48.png>)
+
+=> cek nilai yang di tunjuk pointer 'b'
+```c
+printf("Nilai yang ditunjuk b adalah: %d\n", *b); // => dreference operator
+```
+
+=> pass by reference nih
+![Alt text](<assets/Screenshot 2023-11-26 at 00.25.05.png>)
+

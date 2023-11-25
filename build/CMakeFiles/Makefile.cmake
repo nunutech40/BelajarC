@@ -49,4 +49,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ctrflw-percabangan-ifelse.dir/DependInfo.cmake"
   "CMakeFiles/ctrflw-percabangan-switch.dir/DependInfo.cmake"
   "CMakeFiles/ctrflw-perulangan-while.dir/DependInfo.cmake"
+  "CMakeFiles/fungsi.dir/DependInfo.cmake"
+  "CMakeFiles/pointer.dir/DependInfo.cmake"
   )

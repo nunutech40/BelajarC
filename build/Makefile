@@ -207,6 +207,32 @@ ctrflw-perulangan-while/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/build
 .PHONY : ctrflw-perulangan-while/fast
 
+#=============================================================================
+# Target rules for targets named fungsi
+
+# Build rule for target.
+fungsi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fungsi
+.PHONY : fungsi
+
+# fast build rule for target.
+fungsi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/build
+.PHONY : fungsi/fast
+
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
 ctrflw-percabangan-ifelse.o: ctrflw-percabangan-ifelse.c.o
 .PHONY : ctrflw-percabangan-ifelse.o
 
@@ -351,6 +377,30 @@ exc-var.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/exc-var.c.s
 .PHONY : exc-var.c.s
 
+fungsi.o: fungsi.c.o
+.PHONY : fungsi.o
+
+# target to build an object file
+fungsi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/fungsi.c.o
+.PHONY : fungsi.c.o
+
+fungsi.i: fungsi.c.i
+.PHONY : fungsi.i
+
+# target to preprocess a source file
+fungsi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/fungsi.c.i
+.PHONY : fungsi.c.i
+
+fungsi.s: fungsi.c.s
+.PHONY : fungsi.s
+
+# target to generate assembly for a file
+fungsi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/fungsi.c.s
+.PHONY : fungsi.c.s
+
 hello.o: hello.c.o
 .PHONY : hello.o
 
@@ -375,6 +425,30 @@ hello.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.s
 .PHONY : hello.c.s
 
+pointer.o: pointer.c.o
+.PHONY : pointer.o
+
+# target to build an object file
+pointer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.c.o
+.PHONY : pointer.c.o
+
+pointer.i: pointer.c.i
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.c.i
+.PHONY : pointer.c.i
+
+pointer.s: pointer.c.s
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.c.s
+.PHONY : pointer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -389,7 +463,9 @@ help:
 	@echo "... exc-var"
 	@echo "... exc-var-bool"
 	@echo "... exc-var-size"
+	@echo "... fungsi"
 	@echo "... hello"
+	@echo "... pointer"
 	@echo "... ctrflw-percabangan-ifelse.o"
 	@echo "... ctrflw-percabangan-ifelse.i"
 	@echo "... ctrflw-percabangan-ifelse.s"
@@ -408,9 +484,15 @@ help:
 	@echo "... exc-var.o"
 	@echo "... exc-var.i"
 	@echo "... exc-var.s"
+	@echo "... fungsi.o"
+	@echo "... fungsi.i"
+	@echo "... fungsi.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
+	@echo "... pointer.o"
+	@echo "... pointer.i"
+	@echo "... pointer.s"
 .PHONY : help
 
 
