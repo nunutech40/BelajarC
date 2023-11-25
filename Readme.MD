@@ -2,25 +2,36 @@
 
 ## create file
 ```bat
-> touch namafile+ext
+touch namafile+ext
 ```
 
 ## compile file c
 ```bat
-> clang hello.c -o hello
+clang hello.c -o hello
 ```
 
 ## cek file
 ```bat
-> ls
+ls
 ```
 
 ## get info file
 ```bat
-> file namafile
+file namafile
 ```
 
 ## hapus file
 ```bat
-> rm namafile
+rm namafile
+```
+
+## Menggunakan CMake 
+Karena sudah di configurasi CMakenya, cara buildnya tinggal:
+```bat
+make
+```
+
+then, contoh build file hello
+```bat
+./hello
 ```
