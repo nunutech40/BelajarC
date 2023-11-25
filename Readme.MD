@@ -50,3 +50,19 @@ Tabel ini menunjukkan tipe data primitif dalam bahasa pemrograman C, ukuran mere
 ![!\[Alt text\](<Screenshot 2023-11-25 at 18.37.25.png>)](<assets/Screenshot 2023-11-25 at 18.37.25.png>)
 
 ### tidak ada cara spesifik dalam mendeklarasikan bool di C, Jika 0 = false, selain 0 = true
+
+# INPUT dan OUTPUT di C
+
+mencetak ke layar:
+```c
+printf(char *, ...)
+```
+
+membaca dari input pengguna
+```c
+scanf(char *, ...)
+```
+
+contoh: 
+![Alt text](<assets/Screenshot 2023-11-25 at 19.16.36.png>)
+

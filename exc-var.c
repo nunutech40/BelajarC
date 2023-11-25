@@ -2,14 +2,17 @@
 
 int main(void) {
 
-    int age;
+    int age = 0;
+    int res;
+    printf("Hallo selamat datang di program Belajar C \n");
+    printf("Silahkan masukan umur anda: ");
 
-    age = 33;
-
-    printf("Age: %d\n", age);
-
-    age = 50;
-    printf("Age terbaru: %d\n", age);
+    res = scanf("%d", &age);
+    if (res > 0) {
+        printf("Umur anda adalah: %d, Anda sudah tua ya.. \n", age);
+    } else {
+        printf("Anda salah memasukan umur! \n");
+    }
     
     return 0;
 }
