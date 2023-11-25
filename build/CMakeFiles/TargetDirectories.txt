@@ -2,5 +2,8 @@
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var-size.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var-bool.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-percabangan-ifelse.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-percabangan-switch.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-perulangan-while.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/edit_cache.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/rebuild_cache.dir

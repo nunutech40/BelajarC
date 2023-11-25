@@ -66,3 +66,19 @@ scanf(char *, ...)
 contoh: 
 ![Alt text](<assets/Screenshot 2023-11-25 at 19.16.36.png>)
 
+
+# Contron Flow di C - PERCABANGAN dan PERULANGAN
+- Percabangan => Menjalankan block kode ketika sebuah syarat dipenuhi
+
+```c
+if... else...
+switch..case..default..
+goto
+```
+
+- Perulangan => mengulang blok kode ketika sebuah syarat dipenuhi
+```c
+while...
+do..while..
+for..
+```

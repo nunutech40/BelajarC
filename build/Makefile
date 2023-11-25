@@ -168,6 +168,117 @@ exc-var-bool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/build
 .PHONY : exc-var-bool/fast
 
+#=============================================================================
+# Target rules for targets named ctrflw-percabangan-ifelse
+
+# Build rule for target.
+ctrflw-percabangan-ifelse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ctrflw-percabangan-ifelse
+.PHONY : ctrflw-percabangan-ifelse
+
+# fast build rule for target.
+ctrflw-percabangan-ifelse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/build
+.PHONY : ctrflw-percabangan-ifelse/fast
+
+#=============================================================================
+# Target rules for targets named ctrflw-percabangan-switch
+
+# Build rule for target.
+ctrflw-percabangan-switch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ctrflw-percabangan-switch
+.PHONY : ctrflw-percabangan-switch
+
+# fast build rule for target.
+ctrflw-percabangan-switch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/build
+.PHONY : ctrflw-percabangan-switch/fast
+
+#=============================================================================
+# Target rules for targets named ctrflw-perulangan-while
+
+# Build rule for target.
+ctrflw-perulangan-while: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ctrflw-perulangan-while
+.PHONY : ctrflw-perulangan-while
+
+# fast build rule for target.
+ctrflw-perulangan-while/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/build
+.PHONY : ctrflw-perulangan-while/fast
+
+ctrflw-percabangan-ifelse.o: ctrflw-percabangan-ifelse.c.o
+.PHONY : ctrflw-percabangan-ifelse.o
+
+# target to build an object file
+ctrflw-percabangan-ifelse.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/ctrflw-percabangan-ifelse.c.o
+.PHONY : ctrflw-percabangan-ifelse.c.o
+
+ctrflw-percabangan-ifelse.i: ctrflw-percabangan-ifelse.c.i
+.PHONY : ctrflw-percabangan-ifelse.i
+
+# target to preprocess a source file
+ctrflw-percabangan-ifelse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/ctrflw-percabangan-ifelse.c.i
+.PHONY : ctrflw-percabangan-ifelse.c.i
+
+ctrflw-percabangan-ifelse.s: ctrflw-percabangan-ifelse.c.s
+.PHONY : ctrflw-percabangan-ifelse.s
+
+# target to generate assembly for a file
+ctrflw-percabangan-ifelse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/ctrflw-percabangan-ifelse.c.s
+.PHONY : ctrflw-percabangan-ifelse.c.s
+
+ctrflw-percabangan-switch.o: ctrflw-percabangan-switch.c.o
+.PHONY : ctrflw-percabangan-switch.o
+
+# target to build an object file
+ctrflw-percabangan-switch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/ctrflw-percabangan-switch.c.o
+.PHONY : ctrflw-percabangan-switch.c.o
+
+ctrflw-percabangan-switch.i: ctrflw-percabangan-switch.c.i
+.PHONY : ctrflw-percabangan-switch.i
+
+# target to preprocess a source file
+ctrflw-percabangan-switch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/ctrflw-percabangan-switch.c.i
+.PHONY : ctrflw-percabangan-switch.c.i
+
+ctrflw-percabangan-switch.s: ctrflw-percabangan-switch.c.s
+.PHONY : ctrflw-percabangan-switch.s
+
+# target to generate assembly for a file
+ctrflw-percabangan-switch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/ctrflw-percabangan-switch.c.s
+.PHONY : ctrflw-percabangan-switch.c.s
+
+ctrflw-perulangan-while.o: ctrflw-perulangan-while.c.o
+.PHONY : ctrflw-perulangan-while.o
+
+# target to build an object file
+ctrflw-perulangan-while.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/ctrflw-perulangan-while.c.o
+.PHONY : ctrflw-perulangan-while.c.o
+
+ctrflw-perulangan-while.i: ctrflw-perulangan-while.c.i
+.PHONY : ctrflw-perulangan-while.i
+
+# target to preprocess a source file
+ctrflw-perulangan-while.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/ctrflw-perulangan-while.c.i
+.PHONY : ctrflw-perulangan-while.c.i
+
+ctrflw-perulangan-while.s: ctrflw-perulangan-while.c.s
+.PHONY : ctrflw-perulangan-while.s
+
+# target to generate assembly for a file
+ctrflw-perulangan-while.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/ctrflw-perulangan-while.c.s
+.PHONY : ctrflw-perulangan-while.c.s
+
 exc-var-bool.o: exc-var-bool.c.o
 .PHONY : exc-var-bool.o
 
@@ -272,10 +383,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ctrflw-percabangan-ifelse"
+	@echo "... ctrflw-percabangan-switch"
+	@echo "... ctrflw-perulangan-while"
 	@echo "... exc-var"
 	@echo "... exc-var-bool"
 	@echo "... exc-var-size"
 	@echo "... hello"
+	@echo "... ctrflw-percabangan-ifelse.o"
+	@echo "... ctrflw-percabangan-ifelse.i"
+	@echo "... ctrflw-percabangan-ifelse.s"
+	@echo "... ctrflw-percabangan-switch.o"
+	@echo "... ctrflw-percabangan-switch.i"
+	@echo "... ctrflw-percabangan-switch.s"
+	@echo "... ctrflw-perulangan-while.o"
+	@echo "... ctrflw-perulangan-while.i"
+	@echo "... ctrflw-perulangan-while.s"
 	@echo "... exc-var-bool.o"
 	@echo "... exc-var-bool.i"
 	@echo "... exc-var-bool.s"
