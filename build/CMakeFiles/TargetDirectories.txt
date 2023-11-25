@@ -1,3 +1,6 @@
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/hello.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var-size.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/exc-var-bool.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/edit_cache.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/rebuild_cache.dir

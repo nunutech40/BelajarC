@@ -129,6 +129,117 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+#=============================================================================
+# Target rules for targets named exc-var
+
+# Build rule for target.
+exc-var: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exc-var
+.PHONY : exc-var
+
+# fast build rule for target.
+exc-var/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/build
+.PHONY : exc-var/fast
+
+#=============================================================================
+# Target rules for targets named exc-var-size
+
+# Build rule for target.
+exc-var-size: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exc-var-size
+.PHONY : exc-var-size
+
+# fast build rule for target.
+exc-var-size/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/build
+.PHONY : exc-var-size/fast
+
+#=============================================================================
+# Target rules for targets named exc-var-bool
+
+# Build rule for target.
+exc-var-bool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exc-var-bool
+.PHONY : exc-var-bool
+
+# fast build rule for target.
+exc-var-bool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/build
+.PHONY : exc-var-bool/fast
+
+exc-var-bool.o: exc-var-bool.c.o
+.PHONY : exc-var-bool.o
+
+# target to build an object file
+exc-var-bool.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/exc-var-bool.c.o
+.PHONY : exc-var-bool.c.o
+
+exc-var-bool.i: exc-var-bool.c.i
+.PHONY : exc-var-bool.i
+
+# target to preprocess a source file
+exc-var-bool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/exc-var-bool.c.i
+.PHONY : exc-var-bool.c.i
+
+exc-var-bool.s: exc-var-bool.c.s
+.PHONY : exc-var-bool.s
+
+# target to generate assembly for a file
+exc-var-bool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/exc-var-bool.c.s
+.PHONY : exc-var-bool.c.s
+
+exc-var-size.o: exc-var-size.c.o
+.PHONY : exc-var-size.o
+
+# target to build an object file
+exc-var-size.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/exc-var-size.c.o
+.PHONY : exc-var-size.c.o
+
+exc-var-size.i: exc-var-size.c.i
+.PHONY : exc-var-size.i
+
+# target to preprocess a source file
+exc-var-size.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/exc-var-size.c.i
+.PHONY : exc-var-size.c.i
+
+exc-var-size.s: exc-var-size.c.s
+.PHONY : exc-var-size.s
+
+# target to generate assembly for a file
+exc-var-size.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/exc-var-size.c.s
+.PHONY : exc-var-size.c.s
+
+exc-var.o: exc-var.c.o
+.PHONY : exc-var.o
+
+# target to build an object file
+exc-var.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/exc-var.c.o
+.PHONY : exc-var.c.o
+
+exc-var.i: exc-var.c.i
+.PHONY : exc-var.i
+
+# target to preprocess a source file
+exc-var.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/exc-var.c.i
+.PHONY : exc-var.c.i
+
+exc-var.s: exc-var.c.s
+.PHONY : exc-var.s
+
+# target to generate assembly for a file
+exc-var.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/exc-var.c.s
+.PHONY : exc-var.c.s
+
 hello.o: hello.c.o
 .PHONY : hello.o
 
@@ -161,7 +272,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... exc-var"
+	@echo "... exc-var-bool"
+	@echo "... exc-var-size"
 	@echo "... hello"
+	@echo "... exc-var-bool.o"
+	@echo "... exc-var-bool.i"
+	@echo "... exc-var-bool.s"
+	@echo "... exc-var-size.o"
+	@echo "... exc-var-size.i"
+	@echo "... exc-var-size.s"
+	@echo "... exc-var.o"
+	@echo "... exc-var.i"
+	@echo "... exc-var.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"

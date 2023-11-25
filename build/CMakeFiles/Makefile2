@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /Users/nununugraha/Documents/Programming/BelajarC/build
 
 # The main recursive "all" target.
 all: CMakeFiles/hello.dir/all
+all: CMakeFiles/exc-var.dir/all
+all: CMakeFiles/exc-var-size.dir/all
+all: CMakeFiles/exc-var-bool.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +75,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/hello.dir/clean
+clean: CMakeFiles/exc-var.dir/clean
+clean: CMakeFiles/exc-var-size.dir/clean
+clean: CMakeFiles/exc-var-bool.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +87,7 @@ clean: CMakeFiles/hello.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=1,2 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=7,8 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +105,84 @@ hello: CMakeFiles/hello.dir/rule
 CMakeFiles/hello.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
 .PHONY : CMakeFiles/hello.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exc-var.dir
+
+# All Build rule for target.
+CMakeFiles/exc-var.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=1,2 "Built target exc-var"
+.PHONY : CMakeFiles/exc-var.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exc-var.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exc-var.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/exc-var.dir/rule
+
+# Convenience name for target.
+exc-var: CMakeFiles/exc-var.dir/rule
+.PHONY : exc-var
+
+# clean rule for target.
+CMakeFiles/exc-var.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/clean
+.PHONY : CMakeFiles/exc-var.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exc-var-size.dir
+
+# All Build rule for target.
+CMakeFiles/exc-var-size.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=5,6 "Built target exc-var-size"
+.PHONY : CMakeFiles/exc-var-size.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exc-var-size.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exc-var-size.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/exc-var-size.dir/rule
+
+# Convenience name for target.
+exc-var-size: CMakeFiles/exc-var-size.dir/rule
+.PHONY : exc-var-size
+
+# clean rule for target.
+CMakeFiles/exc-var-size.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/clean
+.PHONY : CMakeFiles/exc-var-size.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exc-var-bool.dir
+
+# All Build rule for target.
+CMakeFiles/exc-var-bool.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=3,4 "Built target exc-var-bool"
+.PHONY : CMakeFiles/exc-var-bool.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exc-var-bool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exc-var-bool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/exc-var-bool.dir/rule
+
+# Convenience name for target.
+exc-var-bool: CMakeFiles/exc-var-bool.dir/rule
+.PHONY : exc-var-bool
+
+# clean rule for target.
+CMakeFiles/exc-var-bool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/clean
+.PHONY : CMakeFiles/exc-var-bool.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
