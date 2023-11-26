@@ -76,6 +76,7 @@ all: CMakeFiles/array-dan-pointer.dir/all
 all: CMakeFiles/array-dan-pointer2.dir/all
 all: CMakeFiles/struct-union.dir/all
 all: CMakeFiles/union.dir/all
+all: CMakeFiles/console.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -96,6 +97,7 @@ clean: CMakeFiles/array-dan-pointer.dir/clean
 clean: CMakeFiles/array-dan-pointer2.dir/clean
 clean: CMakeFiles/struct-union.dir/clean
 clean: CMakeFiles/union.dir/clean
+clean: CMakeFiles/console.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -105,7 +107,7 @@ clean: CMakeFiles/union.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=19,20 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=22,23 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -131,7 +133,7 @@ CMakeFiles/hello.dir/clean:
 CMakeFiles/exc-var.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var.dir/build.make CMakeFiles/exc-var.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=11,12 "Built target exc-var"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=14,15 "Built target exc-var"
 .PHONY : CMakeFiles/exc-var.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,7 +159,7 @@ CMakeFiles/exc-var.dir/clean:
 CMakeFiles/exc-var-size.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-size.dir/build.make CMakeFiles/exc-var-size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=15,16 "Built target exc-var-size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=18,19 "Built target exc-var-size"
 .PHONY : CMakeFiles/exc-var-size.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,7 +185,7 @@ CMakeFiles/exc-var-size.dir/clean:
 CMakeFiles/exc-var-bool.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exc-var-bool.dir/build.make CMakeFiles/exc-var-bool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=13,14 "Built target exc-var-bool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=16,17 "Built target exc-var-bool"
 .PHONY : CMakeFiles/exc-var-bool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +211,7 @@ CMakeFiles/exc-var-bool.dir/clean:
 CMakeFiles/ctrflw-percabangan-ifelse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-ifelse.dir/build.make CMakeFiles/ctrflw-percabangan-ifelse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=5,6 "Built target ctrflw-percabangan-ifelse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=8,9 "Built target ctrflw-percabangan-ifelse"
 .PHONY : CMakeFiles/ctrflw-percabangan-ifelse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -235,7 +237,7 @@ CMakeFiles/ctrflw-percabangan-ifelse.dir/clean:
 CMakeFiles/ctrflw-percabangan-switch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-percabangan-switch.dir/build.make CMakeFiles/ctrflw-percabangan-switch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=7,8 "Built target ctrflw-percabangan-switch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=10,11 "Built target ctrflw-percabangan-switch"
 .PHONY : CMakeFiles/ctrflw-percabangan-switch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -261,7 +263,7 @@ CMakeFiles/ctrflw-percabangan-switch.dir/clean:
 CMakeFiles/ctrflw-perulangan-while.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=9,10 "Built target ctrflw-perulangan-while"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=12,13 "Built target ctrflw-perulangan-while"
 .PHONY : CMakeFiles/ctrflw-perulangan-while.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +289,7 @@ CMakeFiles/ctrflw-perulangan-while.dir/clean:
 CMakeFiles/fungsi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fungsi.dir/build.make CMakeFiles/fungsi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=17,18 "Built target fungsi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=20,21 "Built target fungsi"
 .PHONY : CMakeFiles/fungsi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +315,7 @@ CMakeFiles/fungsi.dir/clean:
 CMakeFiles/pointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=21,22 "Built target pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=24,25 "Built target pointer"
 .PHONY : CMakeFiles/pointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +393,7 @@ CMakeFiles/array-dan-pointer2.dir/clean:
 CMakeFiles/struct-union.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=23,24 "Built target struct-union"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=26,27 "Built target struct-union"
 .PHONY : CMakeFiles/struct-union.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +419,7 @@ CMakeFiles/struct-union.dir/clean:
 CMakeFiles/union.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=25,26 "Built target union"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=28,29 "Built target union"
 .PHONY : CMakeFiles/union.dir/all
 
 # Build rule for subdir invocation for target.
@@ -435,6 +437,32 @@ union: CMakeFiles/union.dir/rule
 CMakeFiles/union.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/clean
 .PHONY : CMakeFiles/union.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/console.dir
+
+# All Build rule for target.
+CMakeFiles/console.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=5,6,7 "Built target console"
+.PHONY : CMakeFiles/console.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/console.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/console.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/console.dir/rule
+
+# Convenience name for target.
+console: CMakeFiles/console.dir/rule
+.PHONY : console
+
+# clean rule for target.
+CMakeFiles/console.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/clean
+.PHONY : CMakeFiles/console.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

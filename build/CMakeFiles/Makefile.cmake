@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/array-dan-pointer2.dir/DependInfo.cmake"
   "CMakeFiles/struct-union.dir/DependInfo.cmake"
   "CMakeFiles/union.dir/DependInfo.cmake"
+  "CMakeFiles/console.dir/DependInfo.cmake"
   )

@@ -285,6 +285,19 @@ union/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/build
 .PHONY : union/fast
 
+#=============================================================================
+# Target rules for targets named console
+
+# Build rule for target.
+console: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 console
+.PHONY : console
+
+# fast build rule for target.
+console/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/build
+.PHONY : console/fast
+
 array-dan-pointer.o: array-dan-pointer.c.o
 .PHONY : array-dan-pointer.o
 
@@ -332,6 +345,30 @@ array-dan-pointer2.s: array-dan-pointer2.c.s
 array-dan-pointer2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer2.dir/build.make CMakeFiles/array-dan-pointer2.dir/array-dan-pointer2.c.s
 .PHONY : array-dan-pointer2.c.s
+
+console.o: console.c.o
+.PHONY : console.o
+
+# target to build an object file
+console.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/console.c.o
+.PHONY : console.c.o
+
+console.i: console.c.i
+.PHONY : console.i
+
+# target to preprocess a source file
+console.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/console.c.i
+.PHONY : console.c.i
+
+console.s: console.c.s
+.PHONY : console.s
+
+# target to generate assembly for a file
+console.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/console.c.s
+.PHONY : console.c.s
 
 ctrflw-percabangan-ifelse.o: ctrflw-percabangan-ifelse.c.o
 .PHONY : ctrflw-percabangan-ifelse.o
@@ -404,6 +441,30 @@ ctrflw-perulangan-while.s: ctrflw-perulangan-while.c.s
 ctrflw-perulangan-while.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ctrflw-perulangan-while.dir/build.make CMakeFiles/ctrflw-perulangan-while.dir/ctrflw-perulangan-while.c.s
 .PHONY : ctrflw-perulangan-while.c.s
+
+custom_math.o: custom_math.c.o
+.PHONY : custom_math.o
+
+# target to build an object file
+custom_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/custom_math.c.o
+.PHONY : custom_math.c.o
+
+custom_math.i: custom_math.c.i
+.PHONY : custom_math.i
+
+# target to preprocess a source file
+custom_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/custom_math.c.i
+.PHONY : custom_math.c.i
+
+custom_math.s: custom_math.c.s
+.PHONY : custom_math.s
+
+# target to generate assembly for a file
+custom_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/custom_math.c.s
+.PHONY : custom_math.c.s
 
 exc-var-bool.o: exc-var-bool.c.o
 .PHONY : exc-var-bool.o
@@ -607,6 +668,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... array-dan-pointer"
 	@echo "... array-dan-pointer2"
+	@echo "... console"
 	@echo "... ctrflw-percabangan-ifelse"
 	@echo "... ctrflw-percabangan-switch"
 	@echo "... ctrflw-perulangan-while"
@@ -624,6 +686,9 @@ help:
 	@echo "... array-dan-pointer2.o"
 	@echo "... array-dan-pointer2.i"
 	@echo "... array-dan-pointer2.s"
+	@echo "... console.o"
+	@echo "... console.i"
+	@echo "... console.s"
 	@echo "... ctrflw-percabangan-ifelse.o"
 	@echo "... ctrflw-percabangan-ifelse.i"
 	@echo "... ctrflw-percabangan-ifelse.s"
@@ -633,6 +698,9 @@ help:
 	@echo "... ctrflw-perulangan-while.o"
 	@echo "... ctrflw-perulangan-while.i"
 	@echo "... ctrflw-perulangan-while.s"
+	@echo "... custom_math.o"
+	@echo "... custom_math.i"
+	@echo "... custom_math.s"
 	@echo "... exc-var-bool.o"
 	@echo "... exc-var-bool.i"
 	@echo "... exc-var-bool.s"

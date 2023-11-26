@@ -119,3 +119,38 @@ Union
 - Union sangat unik, sebanyak apapun atribut yang dimiliki, memory yang digunakan hanya 1
 - Jadi, kalau kita mengubah 1 property dari 3 atribut dalam class union, akan merubah semua atribut yang lain.
 - Maka dari itu hanya 1 property yang bisa digunakan dalam union.
+
+# Header dan Modular
+Materi ini agak ribet setting antara file header '.h' dengan file '.c'. 
+Dan ada perbedaan cara menambahkan ke CMakeList.txt
+
+Langkah-langkahnya:
+
+1. Buat file .c dan pasangannya .h
+2. Pindahkan fungsi yang ingin dibuat modular ke file .c
+3. Include file .h ke dalam fie .c, dengan penulisan yang berbeda dari include biasanya
+    => contoh:
+    ```c
+    #include "custom_math.h"
+    ```
+4. Pada file .h tambahkan:
+    ```c
+    #ifndef CUSTOM_MATH_H // ganti custom_math dengan file .h anda
+    #define CUSTOM_MATH_H
+
+    // tuliskan semua protocol dari fungsi yang ada di file .c
+
+    #endif // !MATH_H
+    ```
+5. Saat ingin menggunakannya di file lain untuk fungsi2 yang sudah kita modularkan, include     file .h nya saja
+    ```c
+    #include "custom_math.h"
+    ```
+
+    otomatis akan membaca semua file yang ada di .c
+6. Terkahir tentu daftarkan ke dalam CMakeFiles.txt
+    Hanya tambahkan file yang ingin digunakan ke dalam add_executable dari file yang menggunakan
+    file .h dari file modul yang kita buat.
+    ```c
+    add_executable(console console.c custom_math.c)
+    ```
