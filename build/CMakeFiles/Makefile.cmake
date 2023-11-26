@@ -51,4 +51,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ctrflw-perulangan-while.dir/DependInfo.cmake"
   "CMakeFiles/fungsi.dir/DependInfo.cmake"
   "CMakeFiles/pointer.dir/DependInfo.cmake"
+  "CMakeFiles/array-dan-pointer.dir/DependInfo.cmake"
+  "CMakeFiles/array-dan-pointer2.dir/DependInfo.cmake"
+  "CMakeFiles/struct-union.dir/DependInfo.cmake"
+  "CMakeFiles/union.dir/DependInfo.cmake"
   )

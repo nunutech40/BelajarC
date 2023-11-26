@@ -31,6 +31,9 @@ Karena sudah di configurasi CMakenya, cara buildnya tinggal:
 make
 ```
 
+### Jangan lupa!
+- sebelum di compile dengan 'make', daftarkan dulu file c yang sudah dibuat ke dalam CMakeList.txt
+
 then, contoh build file hello
 ```bat
 ./hello
@@ -95,3 +98,24 @@ printf("Nilai yang ditunjuk b adalah: %d\n", *b); // => dreference operator
 => pass by reference nih
 ![Alt text](<assets/Screenshot 2023-11-26 at 00.25.05.png>)
 
+
+# Hubungan Array dan Pointer
+=> Di 'C', array dan pointer itu sama.
+
+
+# Union dan Struct
+
+dua cara mengakses property dari struct
+```c
+(*item).quantity
+```
+
+dan
+```c
+item->price
+```
+
+Union
+- Union sangat unik, sebanyak apapun atribut yang dimiliki, memory yang digunakan hanya 1
+- Jadi, kalau kita mengubah 1 property dari 3 atribut dalam class union, akan merubah semua atribut yang lain.
+- Maka dari itu hanya 1 property yang bisa digunakan dalam union.

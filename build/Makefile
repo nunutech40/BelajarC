@@ -233,6 +233,106 @@ pointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
 .PHONY : pointer/fast
 
+#=============================================================================
+# Target rules for targets named array-dan-pointer
+
+# Build rule for target.
+array-dan-pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array-dan-pointer
+.PHONY : array-dan-pointer
+
+# fast build rule for target.
+array-dan-pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer.dir/build.make CMakeFiles/array-dan-pointer.dir/build
+.PHONY : array-dan-pointer/fast
+
+#=============================================================================
+# Target rules for targets named array-dan-pointer2
+
+# Build rule for target.
+array-dan-pointer2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array-dan-pointer2
+.PHONY : array-dan-pointer2
+
+# fast build rule for target.
+array-dan-pointer2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer2.dir/build.make CMakeFiles/array-dan-pointer2.dir/build
+.PHONY : array-dan-pointer2/fast
+
+#=============================================================================
+# Target rules for targets named struct-union
+
+# Build rule for target.
+struct-union: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 struct-union
+.PHONY : struct-union
+
+# fast build rule for target.
+struct-union/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/build
+.PHONY : struct-union/fast
+
+#=============================================================================
+# Target rules for targets named union
+
+# Build rule for target.
+union: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 union
+.PHONY : union
+
+# fast build rule for target.
+union/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/build
+.PHONY : union/fast
+
+array-dan-pointer.o: array-dan-pointer.c.o
+.PHONY : array-dan-pointer.o
+
+# target to build an object file
+array-dan-pointer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer.dir/build.make CMakeFiles/array-dan-pointer.dir/array-dan-pointer.c.o
+.PHONY : array-dan-pointer.c.o
+
+array-dan-pointer.i: array-dan-pointer.c.i
+.PHONY : array-dan-pointer.i
+
+# target to preprocess a source file
+array-dan-pointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer.dir/build.make CMakeFiles/array-dan-pointer.dir/array-dan-pointer.c.i
+.PHONY : array-dan-pointer.c.i
+
+array-dan-pointer.s: array-dan-pointer.c.s
+.PHONY : array-dan-pointer.s
+
+# target to generate assembly for a file
+array-dan-pointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer.dir/build.make CMakeFiles/array-dan-pointer.dir/array-dan-pointer.c.s
+.PHONY : array-dan-pointer.c.s
+
+array-dan-pointer2.o: array-dan-pointer2.c.o
+.PHONY : array-dan-pointer2.o
+
+# target to build an object file
+array-dan-pointer2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer2.dir/build.make CMakeFiles/array-dan-pointer2.dir/array-dan-pointer2.c.o
+.PHONY : array-dan-pointer2.c.o
+
+array-dan-pointer2.i: array-dan-pointer2.c.i
+.PHONY : array-dan-pointer2.i
+
+# target to preprocess a source file
+array-dan-pointer2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer2.dir/build.make CMakeFiles/array-dan-pointer2.dir/array-dan-pointer2.c.i
+.PHONY : array-dan-pointer2.c.i
+
+array-dan-pointer2.s: array-dan-pointer2.c.s
+.PHONY : array-dan-pointer2.s
+
+# target to generate assembly for a file
+array-dan-pointer2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array-dan-pointer2.dir/build.make CMakeFiles/array-dan-pointer2.dir/array-dan-pointer2.c.s
+.PHONY : array-dan-pointer2.c.s
+
 ctrflw-percabangan-ifelse.o: ctrflw-percabangan-ifelse.c.o
 .PHONY : ctrflw-percabangan-ifelse.o
 
@@ -449,6 +549,54 @@ pointer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.c.s
 .PHONY : pointer.c.s
 
+struct-union.o: struct-union.c.o
+.PHONY : struct-union.o
+
+# target to build an object file
+struct-union.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/struct-union.c.o
+.PHONY : struct-union.c.o
+
+struct-union.i: struct-union.c.i
+.PHONY : struct-union.i
+
+# target to preprocess a source file
+struct-union.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/struct-union.c.i
+.PHONY : struct-union.c.i
+
+struct-union.s: struct-union.c.s
+.PHONY : struct-union.s
+
+# target to generate assembly for a file
+struct-union.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/struct-union.c.s
+.PHONY : struct-union.c.s
+
+union.o: union.c.o
+.PHONY : union.o
+
+# target to build an object file
+union.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/union.c.o
+.PHONY : union.c.o
+
+union.i: union.c.i
+.PHONY : union.i
+
+# target to preprocess a source file
+union.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/union.c.i
+.PHONY : union.c.i
+
+union.s: union.c.s
+.PHONY : union.s
+
+# target to generate assembly for a file
+union.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/union.c.s
+.PHONY : union.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -457,6 +605,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... array-dan-pointer"
+	@echo "... array-dan-pointer2"
 	@echo "... ctrflw-percabangan-ifelse"
 	@echo "... ctrflw-percabangan-switch"
 	@echo "... ctrflw-perulangan-while"
@@ -466,6 +616,14 @@ help:
 	@echo "... fungsi"
 	@echo "... hello"
 	@echo "... pointer"
+	@echo "... struct-union"
+	@echo "... union"
+	@echo "... array-dan-pointer.o"
+	@echo "... array-dan-pointer.i"
+	@echo "... array-dan-pointer.s"
+	@echo "... array-dan-pointer2.o"
+	@echo "... array-dan-pointer2.i"
+	@echo "... array-dan-pointer2.s"
 	@echo "... ctrflw-percabangan-ifelse.o"
 	@echo "... ctrflw-percabangan-ifelse.i"
 	@echo "... ctrflw-percabangan-ifelse.s"
@@ -493,6 +651,12 @@ help:
 	@echo "... pointer.o"
 	@echo "... pointer.i"
 	@echo "... pointer.s"
+	@echo "... struct-union.o"
+	@echo "... struct-union.i"
+	@echo "... struct-union.s"
+	@echo "... union.o"
+	@echo "... union.i"
+	@echo "... union.s"
 .PHONY : help
 
 

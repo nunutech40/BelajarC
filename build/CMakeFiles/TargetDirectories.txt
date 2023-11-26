@@ -7,5 +7,9 @@
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/ctrflw-perulangan-while.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/fungsi.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/pointer.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/array-dan-pointer.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/array-dan-pointer2.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/struct-union.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/union.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/edit_cache.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/rebuild_cache.dir
