@@ -298,6 +298,19 @@ console/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/build
 .PHONY : console/fast
 
+#=============================================================================
+# Target rules for targets named str-char
+
+# Build rule for target.
+str-char: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 str-char
+.PHONY : str-char
+
+# fast build rule for target.
+str-char/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/build
+.PHONY : str-char/fast
+
 array-dan-pointer.o: array-dan-pointer.c.o
 .PHONY : array-dan-pointer.o
 
@@ -610,6 +623,30 @@ pointer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.c.s
 .PHONY : pointer.c.s
 
+str-char.o: str-char.c.o
+.PHONY : str-char.o
+
+# target to build an object file
+str-char.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/str-char.c.o
+.PHONY : str-char.c.o
+
+str-char.i: str-char.c.i
+.PHONY : str-char.i
+
+# target to preprocess a source file
+str-char.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/str-char.c.i
+.PHONY : str-char.c.i
+
+str-char.s: str-char.c.s
+.PHONY : str-char.s
+
+# target to generate assembly for a file
+str-char.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/str-char.c.s
+.PHONY : str-char.c.s
+
 struct-union.o: struct-union.c.o
 .PHONY : struct-union.o
 
@@ -678,6 +715,7 @@ help:
 	@echo "... fungsi"
 	@echo "... hello"
 	@echo "... pointer"
+	@echo "... str-char"
 	@echo "... struct-union"
 	@echo "... union"
 	@echo "... array-dan-pointer.o"
@@ -719,6 +757,9 @@ help:
 	@echo "... pointer.o"
 	@echo "... pointer.i"
 	@echo "... pointer.s"
+	@echo "... str-char.o"
+	@echo "... str-char.i"
+	@echo "... str-char.s"
 	@echo "... struct-union.o"
 	@echo "... struct-union.i"
 	@echo "... struct-union.s"

@@ -77,6 +77,7 @@ all: CMakeFiles/array-dan-pointer2.dir/all
 all: CMakeFiles/struct-union.dir/all
 all: CMakeFiles/union.dir/all
 all: CMakeFiles/console.dir/all
+all: CMakeFiles/str-char.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,6 +99,7 @@ clean: CMakeFiles/array-dan-pointer2.dir/clean
 clean: CMakeFiles/struct-union.dir/clean
 clean: CMakeFiles/union.dir/clean
 clean: CMakeFiles/console.dir/clean
+clean: CMakeFiles/str-char.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -393,7 +395,7 @@ CMakeFiles/array-dan-pointer2.dir/clean:
 CMakeFiles/struct-union.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct-union.dir/build.make CMakeFiles/struct-union.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=26,27 "Built target struct-union"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=28,29 "Built target struct-union"
 .PHONY : CMakeFiles/struct-union.dir/all
 
 # Build rule for subdir invocation for target.
@@ -419,7 +421,7 @@ CMakeFiles/struct-union.dir/clean:
 CMakeFiles/union.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/union.dir/build.make CMakeFiles/union.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=28,29 "Built target union"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=30,31 "Built target union"
 .PHONY : CMakeFiles/union.dir/all
 
 # Build rule for subdir invocation for target.
@@ -463,6 +465,32 @@ console: CMakeFiles/console.dir/rule
 CMakeFiles/console.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console.dir/build.make CMakeFiles/console.dir/clean
 .PHONY : CMakeFiles/console.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/str-char.dir
+
+# All Build rule for target.
+CMakeFiles/str-char.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles --progress-num=26,27 "Built target str-char"
+.PHONY : CMakeFiles/str-char.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/str-char.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/str-char.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles 0
+.PHONY : CMakeFiles/str-char.dir/rule
+
+# Convenience name for target.
+str-char: CMakeFiles/str-char.dir/rule
+.PHONY : str-char
+
+# clean rule for target.
+CMakeFiles/str-char.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/str-char.dir/build.make CMakeFiles/str-char.dir/clean
+.PHONY : CMakeFiles/str-char.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

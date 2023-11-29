@@ -154,3 +154,34 @@ Langkah-langkahnya:
     ```c
     add_executable(console console.c custom_math.c)
     ```
+
+
+# String dan Karakter
+
+Cara menulis string literal di C
+```c
+char greeting[] = "Terima Kasih";
+```
+
+* Hal yang menarik pada String di 'C' adalah, bahwa bahasa C menyediakan ukuran yang lebih panjang,
+ dari panjang karakter yang di tulis. Misal, kita menulis 'Terima Kasih' yang memiliki 12 karakter (besera spasi), ukuran dari String yang digunakan untuk menampung "Terima Kasih" adalah 13.
+
+* Di C menambahkan karakter null terminator ('\0') / selalu lebih satu size di akhir string untuk menandai akhir dari string tersebut. Ini adalah konvensi standar di C untuk menentukan batas akhir sebuah string.
+
+Contohnya:
+![Alt text](<assets/Screenshot 2023-11-29 at 08.02.22.png>)
+
+
+==> Tapi hasilnya akan berbeda, jika kita menggunakan pointer untuk menulis string. Berbeda disini bukan ukurannya tiba-tiba berubah. Jika kita print ukuran String menggunakan sizeof pada string yang menggunakan pointer, yang dihitung bukan size dari stringnya, tapi size dari alamat memorynya. Karena alamat memory memiliki besaran yang fix.
+
+
+# Preprocessor, Macros, Conditional Compilation
+
+Preprocessor direktrif di 'C' adalah sebuah struktur yang dimulai dengan tanda pagar '#'
+
+=> Untuk? => akan di proses untuk processor sebelum dikompilasi.
+
+=> Fungsinya untuk: Macro, Pragma, Conditional Compilation
+
+
+

@@ -12,5 +12,6 @@
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/struct-union.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/union.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/console.dir
+/Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/str-char.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/edit_cache.dir
 /Users/nununugraha/Documents/Programming/BelajarC/build/CMakeFiles/rebuild_cache.dir

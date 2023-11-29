@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/struct-union.dir/DependInfo.cmake"
   "CMakeFiles/union.dir/DependInfo.cmake"
   "CMakeFiles/console.dir/DependInfo.cmake"
+  "CMakeFiles/str-char.dir/DependInfo.cmake"
   )
