@@ -12,11 +12,12 @@ int main() {
     step = 20;
 
     fhr = lower;
+
+    // loop with while
     while (fhr <= upper)
     {
         celcius = 5 * (fhr-32) / 9;
-        printf("%d\t%d\n", fhr, celcius);
+        printf("Suhu dalam Fahrenhait: %d\t Suhu dalam Celcius%d\n", fhr, celcius); // \t adalah tab
         fhr = fhr + step;
     }
-    
 }
